@@ -1,0 +1,21 @@
+def count_even(num):
+    even=0
+    for i in num:
+        if(i%2==0):
+            even+=1
+    return even
+l=[1,2,3,4,5,6]
+res=count_even(l)
+print(res)
+
+
+
+def count_even(l):
+    even=[]
+    for i in l:
+        if (i%2==0):
+            even.append(i)
+    return even
+l=[1,2,3,4,5,6]
+print(count_even(l))
+
